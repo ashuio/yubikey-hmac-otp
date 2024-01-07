@@ -1,8 +1,8 @@
 extern crate hex;
-extern crate yubico_manager;
+extern crate yubikey_hmac_otp;
 
-use yubico_manager::Yubico;
-use yubico_manager::config::{Config, Slot, Mode};
+use yubikey_hmac_otp::Yubico;
+use yubikey_hmac_otp::config::{Config, Slot, Mode};
 
 fn main() {
    let mut yubi = Yubico::new();

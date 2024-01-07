@@ -1,10 +1,10 @@
 extern crate rand;
-extern crate yubico_manager;
+extern crate yubikey_hmac_otp;
 
-use yubico_manager::Yubico;
-use yubico_manager::config::{Config, Command};
-use yubico_manager::configure::DeviceModeConfig;
-use yubico_manager::hmacmode::HmacKey;
+use yubikey_hmac_otp::Yubico;
+use yubikey_hmac_otp::config::{Config, Command};
+use yubikey_hmac_otp::configure::DeviceModeConfig;
+use yubikey_hmac_otp::hmacmode::HmacKey;
 use rand::{thread_rng, Rng};
 use rand::distributions::Alphanumeric;
 

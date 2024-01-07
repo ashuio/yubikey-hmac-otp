@@ -1,7 +1,7 @@
 [package]
-name = "yubico_manager"
-version = "0.10.0"
-authors = ["Flavio Oliveira <flavio@wisespace.io>", "Pierre-Étienne Meunier <pe@coturnix.fr>"]
+name = "yubikey-hmac-otp"
+version = "0.10.1"
+authors = ["Flavio Oliveira <flavio@wisespace.io>", "Pierre-Étienne Meunier <pe@coturnix.fr>", "Ashutosh Varma <github@ashu.io>"]
 
 description = "Yubikey Challenge-Response & Configuration"
 license = "MIT OR Apache-2.0"
@@ -16,7 +16,7 @@ resolver = "2"
 travis-ci = { repository = "wisespace-io/yubico-manager" }
 
 [lib]
-name = "yubico_manager"
+name = "yubikey_hmac_otp"
 path = "src/lib.rs"
 
 [dependencies]
