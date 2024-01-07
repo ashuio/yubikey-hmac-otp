@@ -1,13 +1,13 @@
 [package]
 name = "yubikey-hmac-otp"
-version = "0.10.1"
+version = "0.10.2"
 authors = ["Flavio Oliveira <flavio@wisespace.io>", "Pierre-Étienne Meunier <pe@coturnix.fr>", "Ashutosh Varma <github@ashu.io>"]
 
 description = "Yubikey Challenge-Response & Configuration"
 license = "MIT OR Apache-2.0"
 keywords = ["yubikey", "authentication", "encryption", "configuration", "Challenge-Response"]
 categories = ["authentication"]
-repository = "https://github.com/wisespace-io/yubico-manager"
+repository = "https://github.com/ashuio/yubikey-hmac-otp"
 readme = "README.md"
 edition = "2021"
 resolver = "2"
