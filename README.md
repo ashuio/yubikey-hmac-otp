@@ -1,4 +1,4 @@
-# Yubikey hmac/otp &emsp; [![Build Status]][travis] [![Latest Version]][crates.io] [![MIT licensed]][MIT] [![Apache-2.0 licensed]][APACHE]
+# Yubikey_hmac_otp &emsp; [![Build Status]][travis] [![Latest Version]][crates.io] [![MIT licensed]][MIT] [![Apache-2.0 licensed]][APACHE]
 
 [Build Status]: https://travis-ci.org/wisespace-io/yubico-manager.png?branch=master
 [travis]: https://travis-ci.org/wisespace-io/yubico-manager
@@ -24,7 +24,7 @@ Add this to your Cargo.toml
 
 ```toml
 [dependencies]
-yubikey-hmac-otp = "0.10"
+yubikey_hmac_otp = "0.10"
 ```
 
 ### Configure Yubikey (HMAC-SHA1 mode)
@@ -34,12 +34,12 @@ Alternatively you can configure the yubikey with the official [Yubikey Personali
 
 ```rust
 extern crate rand;
-extern crate yubikey-hmac-otp;
+extern crate yubikey_hmac_otp;
 
-use yubikey-hmac-otp::{Yubico};
-use yubikey-hmac-otp::config::{Config, Command};
-use yubikey-hmac-otp::configure::{ DeviceModeConfig };
-use yubikey-hmac-otp::hmacmode::{ HmacKey };
+use yubikey_hmac_otp::{Yubico};
+use yubikey_hmac_otp::config::{Config, Command};
+use yubikey_hmac_otp::configure::{ DeviceModeConfig };
+use yubikey_hmac_otp::hmacmode::{ HmacKey };
 use rand::{thread_rng, Rng};
 use rand::distributions::{Alphanumeric};
 
@@ -82,11 +82,11 @@ Configure the yubikey with [Yubikey Personalization GUI](https://developers.yubi
 
 ```rust
 extern crate hex;
-extern crate yubikey-hmac-otp;
+extern crate yubikey_hmac_otp;
 
 use std::ops::Deref;
-use yubikey-hmac-otp::{Yubico};
-use yubikey-hmac-otp::config::{Config, Slot, Mode};
+use yubikey_hmac_otp::{Yubico};
+use yubikey_hmac_otp::config::{Config, Slot, Mode};
 
 fn main() {
    let mut yubi = Yubico::new();
