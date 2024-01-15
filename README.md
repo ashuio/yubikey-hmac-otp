@@ -1,9 +1,7 @@
-# Yubikey_hmac_otp &emsp; [![Build Status]][travis] [![Latest Version]][crates.io] [![MIT licensed]][MIT] [![Apache-2.0 licensed]][APACHE]
+# Yubikey_hmac_otp &emsp; [![Latest Version]][crates.io] [![MIT licensed]][MIT] [![Apache-2.0 licensed]][APACHE]
 
-[Build Status]: https://travis-ci.org/wisespace-io/yubico-manager.png?branch=master
-[travis]: https://travis-ci.org/wisespace-io/yubico-manager
-[Latest Version]: https://img.shields.io/crates/v/yubico-manager.svg
-[crates.io]: https://crates.io/crates/yubico-manager
+[Latest Version]: https://img.shields.io/crates/v/yubikey-hmac-otp.svg
+[crates.io]: https://crates.io/crates/yubikey-hmac-otp
 [MIT licensed]: https://img.shields.io/badge/License-MIT-blue.svg
 [MIT]: ./LICENSE-MIT
 [Apache-2.0 licensed]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
@@ -15,7 +13,7 @@
 
 ## Current features
 
-- [X] [Challenge-Response](https://wiki.archlinux.org/index.php/yubikey#Function_and_Application_of_Challenge-Response), YubiKey 2.2 and later supports HMAC-SHA1 or Yubico challenge-response operations.
+- [x] [Challenge-Response](https://wiki.archlinux.org/index.php/yubikey#Function_and_Application_of_Challenge-Response), YubiKey 2.2 and later supports HMAC-SHA1 or Yubico challenge-response operations.
 - [x] Configuration.
 
 ## Usage
